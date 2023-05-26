@@ -104,6 +104,9 @@ p.thin{
 }
 .news-letter h3,p{
 text-align: center;
+display: flex;
+justify-content: center;
+align-content: center;
 }
 .dr{
    justify-content: center;
@@ -116,6 +119,18 @@ text-align: center;
     padding-top: 8px;
     background-color: white;
 }
-.dr input{
-    border-left: 10px;
+
+.dr{
+    border: 0px;
+    width: 400px;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+
+}
+.dr span{
+    border: 0px;
+    height: 40px;
+
 }
